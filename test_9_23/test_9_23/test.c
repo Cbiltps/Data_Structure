@@ -32,7 +32,6 @@ LNode* creat_L()
         s->next = NULL;
         p->next = s;
         p = s;
-        printf("请继续输入\n");
         scanf("%d", &x);//输入下一个数据
     }
     return(h);
