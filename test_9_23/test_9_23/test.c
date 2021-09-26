@@ -55,10 +55,18 @@ void out_L(LNode* L)
 //  查找值为 e 的元素, 返回它的位置   
 int locat_L(LNode* L, ElemType e)
 {
-    LNode* p; int j = 1;
+    LNode* p;
+    int j = 1;
     p = L->next;
-    while (p != NULL && p->data != e) { p = p->next; j++; }
-    if (p != NULL)return(j); else return(-1);
+    while (p != NULL && p->data != e)
+    { 
+        p = p->next;
+        j++;
+    }
+    if (p != NULL)
+        return(j);
+    else
+        return(-1);
 } //locat_L 
 
 // 删除第i个位置的元素, 返回它的值  
