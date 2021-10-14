@@ -1,0 +1,3 @@
+﻿  test.c
+E:\学校工作及学习文件\Code\C_C++Code\Data_Structure\test_10_8\test_10_8\test.c(44,12): warning C4101: “j”: 未引用的局部变量
+  test_10_8.vcxproj -> E:\学校工作及学习文件\Code\C_C++Code\Data_Structure\test_10_8\Debug\test_10_8.exe
